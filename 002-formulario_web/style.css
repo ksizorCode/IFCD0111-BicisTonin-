@@ -58,6 +58,7 @@ input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="date"],
+select,
 textarea {
     width: 300px;
     padding: 2px 20px;
@@ -66,6 +67,8 @@ textarea {
 }
 
 label:hover input,
+label:hover select,
+label:hover textarea,
 label:hover {
     border-color: var(--c1) !important;
     color:var(--c1);
